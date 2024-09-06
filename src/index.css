@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #414141;
+}
+
+
+.neomrph {
+  background: #363C43;
+  box-shadow: 4px 4px 2px #1c1b1b;
+  /* -35px -35px 70px #ffffff; */
+}
+
+.btnneomrph {
+  background: #363C43;
+  box-shadow: 4px 7px 5px #1c1b1b,
+  -4px -4px 5px #535252;
+}
+
+
+/* scroller */
+.scroll-container {
+  height: 200px;
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+
+/* Scrollbar styles */
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.392);
+  ;
+  /* Scrollbar color */
+  border-radius: 10px;
+  /* Rounded corners for the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+  /* Removes the scrollbar background */
+}
+
+
+
+
+/* Scrollbar styles */
+.carousel::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+
+
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
+  /* Removes the scrollbar background */
+}
